@@ -3,6 +3,7 @@ html {
   box-sizing: border-box;
 }
 body {
+  background-color: #212121;
   margin: 0;
   height: 100vh;
   font-size: 1.6rem;
@@ -68,24 +69,24 @@ textarea,
 button {
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 0.1rem #a4a4a4 solid;
+  border: 0.1rem #5a5353 solid;
   font-size: 1.6rem;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 button {
-  background-color: #f8f8f8;
+  background-color: #413f3f;
   cursor: pointer;
 }
 input:hover,
 select:hover,
 textarea:hover,
 button:hover {
-  border: 0.1rem #404040 solid;
+  border: 0.1rem #ffffff solid;
 }
 button.primary {
-  background-color: #f0c040;
+  background-color: #945fb8;
 }
 button.block {
   width: 100%;
@@ -128,6 +129,7 @@ a.brand {
 }
 .col-1 {
   flex: 1 1 25rem;
+  margin-left: 2rem;
 }
 .col-2 {
   flex: 2 1 50rem;
@@ -196,8 +198,8 @@ img.large {
 
 /* Card */
 .card {
-  border: 0.1rem #c0c0c0 solid;
-  background-color: #f8f8f8;
+  border: 0.1rem #413f3f solid;
+  background-color: #212121;
   border-radius: 0.5rem;
   margin: 1rem;
 }
@@ -296,12 +298,12 @@ img.large {
   border-collapse: collapse;
 }
 .table tbody tr:nth-of-type(odd) {
-  background-color: #f4f4f4;
+  background-color: #413f3f;
 }
 .table td,
 .table th {
   text-align: left;
-  border: 0.1rem solid #e4e4e4;
+  border: 0.1rem solid #413f3f;
   padding: 0.5rem;
 }
 .table button {
